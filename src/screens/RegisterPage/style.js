@@ -55,30 +55,6 @@ export default StyleSheet.create({
     fontSize: 40,
     fontWeight: '300',
   },
-
-  buttonBar: {
-    height: '30%',
-    width: '100%',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  button: {
-    backgroundColor: '#761D3B',
-    width: '80%',
-    height: '25%',
-    borderWidth: 1,
-    borderColor: 'white',
-    borderRadius: 30,
-    justifyContent: 'center',
-    alignItems: 'center',
-    margin: '2%',
-  },
-  buttonText: {
-    color: 'white',
-    fontSize: 20,
-    fontWeight: 'bold',
-  },
-
   footer: {
     width: '100%',
     height: '28%',
@@ -101,6 +77,12 @@ export default StyleSheet.create({
     backgroundColor: 'white',
     borderRadius: 20,
     padding: 5,
+  },
+  buttonBar: {
+    height: '30%',
+    width: '100%',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   footerIcon: {
     width: 25,

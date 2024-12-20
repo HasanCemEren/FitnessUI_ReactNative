@@ -39,31 +39,6 @@ export default StyleSheet.create({
     paddingTop: '15%',
   },
 
-  bar: {
-    width: '75%',
-    paddingVertical: '5%',
-  },
-  tick: {
-    width: 18,
-    height: 18,
-    opacity: 0.3,
-  },
-  mailBar: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    marginTop: '2%',
-  },
-  gmailText: {
-    color: '#d5546b',
-    fontSize: 16,
-    fontWeight: '600',
-  },
-  line: {
-    width: '100%',
-    borderBottomWidth: 1,
-    borderBottomColor: 'grey',
-  },
 
   forgotTextBar: {
     width: '75%',
@@ -100,9 +75,5 @@ export default StyleSheet.create({
     justifyContent: 'center',
     marginTop: '5%',
   },
-  bottomBar: {
-    width: '85%',
-    marginTop: '20%',
-    alignItems: 'flex-end',
-  },
+
 });

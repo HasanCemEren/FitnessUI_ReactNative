@@ -12,22 +12,7 @@ export default StyleSheet.create({
     width: '100%',
     height: '30%',
   },
-  topContainer: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    margin: 25,
-  },
-  helloTextBar: {
-    width: '60%',
-  },
-  helloText: {
-    color: 'white',
-    fontSize: 40,
-    fontWeight: '400',
-  },
-  more: {
-    tintColor: 'white',
-  },
+  
 
   bottom: {
     flex: 6,
@@ -87,11 +72,5 @@ export default StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  bottomBar: {
-    width: '85%',
-    marginTop: '20%',
-    alignItems: 'flex-end',
-    bottom: 15,
-    position: 'absolute',
-  },
+  
 });

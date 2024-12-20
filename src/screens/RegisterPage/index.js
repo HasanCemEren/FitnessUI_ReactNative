@@ -1,16 +1,25 @@
-import {Image, SafeAreaView, StyleSheet, Text, View} from 'react-native';
+import {
+  Button,
+  Image,
+  SafeAreaView,
+  StyleSheet,
+  Text,
+  Touchable,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 import React from 'react';
 import Styles from '../RegisterPage/style.js';
 import {Icons} from '../../assets/index.js';
+import {_Button, Header} from '../../components';
+import {Colors} from 'react-native/Libraries/NewAppScreen';
 const index = () => {
   return (
     <SafeAreaView style={Styles.safeArea}>
       <View style={Styles.background}>
-        <View style={Styles.topBar}>
-          <View>
-            <Image source={Icons.more} style={Styles.topIcon} />
-          </View>
-        </View>
+        <TouchableOpacity style={Styles.topBar}>
+          <Header text=" " />
+        </TouchableOpacity>
 
         <View style={Styles.topContainer}>
           <View style={Styles.dumbbellBar}>
@@ -24,20 +33,14 @@ const index = () => {
         <View style={Styles.welcomeTextBar}>
           <Text style={Styles.welcomeText}>Welcome Back</Text>
         </View>
-
         <View style={Styles.buttonBar}>
-          <View style={Styles.button}>
-            <View style={Styles.buttonTextBar}>
-              <Text style={Styles.buttonText}>SIGN IN</Text>
-            </View>
-          </View>
-          <View style={[Styles.button, {backgroundColor: 'white'}]}>
-            <View style={Styles.buttonTextBar}>
-              <Text style={[Styles.buttonText, {color: 'black'}]}>SIGN UP</Text>
-            </View>
-          </View>
+          <_Button _buttonText={'Sign In'} />
+          <_Button
+            _buttonText={'Sign Up'}
+            buttonStyle={{backgroundColor: 'white'}}
+            buttonTextColor={{color: '#761D3B'}}
+          />
         </View>
-
         <View style={Styles.footer}>
           <View style={Styles.loginTextBar}>
             <Text style={Styles.loginText}>Login with Social Media</Text>
